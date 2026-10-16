@@ -13,18 +13,31 @@ The tutorial notebook was supplied separately by the user. Its lysozyme material
 is attributed to Jonathan Zajac. Local changes make data paths portable, define
 the protein selection before use, render the animation without deleting a local
 file, adapt residue-plot limits to the selected protein, seed the synthetic
-weights with 42, and append the AAV8 single-frame example.
+weights with 42, and append the AAV8 single-frame example. Both examples use
+the same spatial-neighbor implementation of the original strict heavy-atom
+cutoff and sequence-order exclusion; the contact definition is unchanged for
+lysozyme.
 
 ## AAV8 example
 
 Prepared from the existing SAMPEL Group MD analysis, full-vp3 branch, frame 334
-(400.8 ns). This is the same frame used for the previously checked PyMOL view.
-The original trajectory and topology are not included. Original numeric VP IDs
-are retained; they do not come from the unrelated 9J7K receptor-complex PDB.
-Only the backbone subset needed for structural display is provided. Residue
-contacts use unrounded CA coordinates in the NPZ. The PDB rounds coordinates to
-0.001 Å and labels terminal OT1 as O for display; the mmCIF preserves original
-atom names and float32 coordinate precision. The included files support a
-single-conformation tutorial, not a trajectory-occupancy or convergence result.
+(400.8 ns). The source has 801 frames at 1.2 ns spacing and 499,164 atoms.
+The two complete protein GRO snapshots retain the original atom names, order,
+residue IDs (204–738) and coordinates; source ions are excluded. The original
+MD topology and trajectory are not distributed. These VP IDs do not come from
+the unrelated 9J7K receptor-complex PDB.
 
-`manifest.json` records the distributed file hashes and original data provenance.
+GRO coordinates use six decimal places in nm. The box is zero: these fitted,
+unwrapped coordinates are used without periodic wrapping. MDAnalysis loads
+coordinates in angstrom. The notebook derives contacts and centralities from
+the GRO directly; it does not load precomputed network arrays. See
+`aav8/metadata.json` for source fingerprints, VP boundaries and exact definitions.
+
+On 2026-10-16 the user selected the original lysozyme contact method for AAV8:
+minimum heavy-atom distance strictly <6 Å, sequence-order separation >3 within
+VP0. This supersedes the earlier tutorial CA ≤8 Å graph, not the main MD
+analysis. The default graph has 535 nodes and 1,795 edges; degree, closeness
+and betweenness are exact and unweighted. The full capsid is displayed only.
+This single conformation does not establish trajectory occupancy or convergence.
+
+`manifest.json` records distributed file hashes and original data provenance.

@@ -1,49 +1,19 @@
 {
   "branch": "full_vp3",
-  "source_frames": 801,
+  "stage": "single_frame_tutorial",
   "sampled_frames": [
     334
   ],
+  "output_frame_count": 1,
   "frame_index": 334,
   "time_ns": 400.8,
   "dt_ns": 1.2,
+  "source_frames": 801,
   "source_atoms": 499164,
-  "capsid_atoms": 492780,
-  "displayed_backbone_atoms": 128400,
-  "full_capsid_subunits": 60,
-  "full_capsid_ca": 32100,
-  "single_vp_atoms": 8213,
-  "single_vp_backbone_atoms": 2140,
-  "single_vp_ca": 535,
-  "xyz_shape": [
-    535,
-    3
+  "source_time_range_ns": [
+    0.0,
+    960.0
   ],
-  "edge_shape": [
-    1109,
-    2
-  ],
-  "edges": 1109,
-  "components": 76,
-  "isolated_nodes": 72,
-  "residue_range": [
-    204,
-    738
-  ],
-  "node_identity": [
-    "subunit_id",
-    "residue_id"
-  ],
-  "contact_cutoff_angstrom": 8.0,
-  "sequence_exclusion": 3,
-  "weights": null,
-  "normalized": true,
-  "bc_endpoints": false,
-  "bc_method": "exact",
-  "closeness_wf_improved": true,
-  "coordinate_units": "angstrom",
-  "representation": "physical_copy_aware",
-  "subunit_id": 0,
   "source_fingerprints": {
     "topology": {
       "algorithm": "sha256",
@@ -60,21 +30,387 @@
       "size_bytes": 4798028724
     }
   },
-  "backbone_coordinate_sha256": "f7ca81a32b013cbee3c159e4e2056bd99e1fbd5ee1704a40d3e01ce3c319af54",
-  "source_time_range_ns": [
-    0.0,
-    960.0
+  "source_verification": "GRO SHA256 verified; DCD cached SHA256 plus current size/mtime, shared reader structure scan and frame 334 read",
+  "source_protein_coordinate_sha256": "d5fce15291e195325f79c10438eb91a926ff579cfef0be7b5ff1110debd8db0b",
+  "structure_type": "all protein atoms, including sidechains and hydrogens; ions excluded",
+  "full_capsid_subunits": 60,
+  "capsid_atoms": 492780,
+  "full_capsid_residues": 32100,
+  "full_capsid_ca": 32100,
+  "single_vp_atoms": 8213,
+  "single_vp_residues": 535,
+  "single_vp_heavy_atoms": 4233,
+  "single_vp_ca": 535,
+  "displayed_backbone_atoms": 128400,
+  "single_vp_backbone_atoms": 2140,
+  "subunit_id": 0,
+  "residue_range": [
+    204,
+    738
   ],
-  "output_frame_count": 1,
-  "graph_distances": "unrounded DCD float32 coordinates promoted to float64",
+  "representation": "physical_copy_aware",
+  "node_identity": [
+    "subunit_id",
+    "residue_id"
+  ],
+  "coordinate_units": "nm in GRO; angstrom after MDAnalysis loading",
+  "gro_coordinate_decimals_nm": 6,
+  "gro_coordinate_field_width": 11,
+  "gro_atom_serials": "1-based modulo 100000; not identities",
+  "periodic_boundary_conditions": false,
+  "box": "zero; unwrapped/fitted coordinates, Euclidean distances",
+  "subunits": [
+    {
+      "subunit_id": 0,
+      "atom_start_inclusive": 0,
+      "atom_stop_exclusive": 8213
+    },
+    {
+      "subunit_id": 1,
+      "atom_start_inclusive": 8213,
+      "atom_stop_exclusive": 16426
+    },
+    {
+      "subunit_id": 2,
+      "atom_start_inclusive": 16426,
+      "atom_stop_exclusive": 24639
+    },
+    {
+      "subunit_id": 3,
+      "atom_start_inclusive": 24639,
+      "atom_stop_exclusive": 32852
+    },
+    {
+      "subunit_id": 4,
+      "atom_start_inclusive": 32852,
+      "atom_stop_exclusive": 41065
+    },
+    {
+      "subunit_id": 5,
+      "atom_start_inclusive": 41065,
+      "atom_stop_exclusive": 49278
+    },
+    {
+      "subunit_id": 6,
+      "atom_start_inclusive": 49278,
+      "atom_stop_exclusive": 57491
+    },
+    {
+      "subunit_id": 7,
+      "atom_start_inclusive": 57491,
+      "atom_stop_exclusive": 65704
+    },
+    {
+      "subunit_id": 8,
+      "atom_start_inclusive": 65704,
+      "atom_stop_exclusive": 73917
+    },
+    {
+      "subunit_id": 9,
+      "atom_start_inclusive": 73917,
+      "atom_stop_exclusive": 82130
+    },
+    {
+      "subunit_id": 10,
+      "atom_start_inclusive": 82130,
+      "atom_stop_exclusive": 90343
+    },
+    {
+      "subunit_id": 11,
+      "atom_start_inclusive": 90343,
+      "atom_stop_exclusive": 98556
+    },
+    {
+      "subunit_id": 12,
+      "atom_start_inclusive": 98556,
+      "atom_stop_exclusive": 106769
+    },
+    {
+      "subunit_id": 13,
+      "atom_start_inclusive": 106769,
+      "atom_stop_exclusive": 114982
+    },
+    {
+      "subunit_id": 14,
+      "atom_start_inclusive": 114982,
+      "atom_stop_exclusive": 123195
+    },
+    {
+      "subunit_id": 15,
+      "atom_start_inclusive": 123195,
+      "atom_stop_exclusive": 131408
+    },
+    {
+      "subunit_id": 16,
+      "atom_start_inclusive": 131408,
+      "atom_stop_exclusive": 139621
+    },
+    {
+      "subunit_id": 17,
+      "atom_start_inclusive": 139621,
+      "atom_stop_exclusive": 147834
+    },
+    {
+      "subunit_id": 18,
+      "atom_start_inclusive": 147834,
+      "atom_stop_exclusive": 156047
+    },
+    {
+      "subunit_id": 19,
+      "atom_start_inclusive": 156047,
+      "atom_stop_exclusive": 164260
+    },
+    {
+      "subunit_id": 20,
+      "atom_start_inclusive": 164260,
+      "atom_stop_exclusive": 172473
+    },
+    {
+      "subunit_id": 21,
+      "atom_start_inclusive": 172473,
+      "atom_stop_exclusive": 180686
+    },
+    {
+      "subunit_id": 22,
+      "atom_start_inclusive": 180686,
+      "atom_stop_exclusive": 188899
+    },
+    {
+      "subunit_id": 23,
+      "atom_start_inclusive": 188899,
+      "atom_stop_exclusive": 197112
+    },
+    {
+      "subunit_id": 24,
+      "atom_start_inclusive": 197112,
+      "atom_stop_exclusive": 205325
+    },
+    {
+      "subunit_id": 25,
+      "atom_start_inclusive": 205325,
+      "atom_stop_exclusive": 213538
+    },
+    {
+      "subunit_id": 26,
+      "atom_start_inclusive": 213538,
+      "atom_stop_exclusive": 221751
+    },
+    {
+      "subunit_id": 27,
+      "atom_start_inclusive": 221751,
+      "atom_stop_exclusive": 229964
+    },
+    {
+      "subunit_id": 28,
+      "atom_start_inclusive": 229964,
+      "atom_stop_exclusive": 238177
+    },
+    {
+      "subunit_id": 29,
+      "atom_start_inclusive": 238177,
+      "atom_stop_exclusive": 246390
+    },
+    {
+      "subunit_id": 30,
+      "atom_start_inclusive": 246390,
+      "atom_stop_exclusive": 254603
+    },
+    {
+      "subunit_id": 31,
+      "atom_start_inclusive": 254603,
+      "atom_stop_exclusive": 262816
+    },
+    {
+      "subunit_id": 32,
+      "atom_start_inclusive": 262816,
+      "atom_stop_exclusive": 271029
+    },
+    {
+      "subunit_id": 33,
+      "atom_start_inclusive": 271029,
+      "atom_stop_exclusive": 279242
+    },
+    {
+      "subunit_id": 34,
+      "atom_start_inclusive": 279242,
+      "atom_stop_exclusive": 287455
+    },
+    {
+      "subunit_id": 35,
+      "atom_start_inclusive": 287455,
+      "atom_stop_exclusive": 295668
+    },
+    {
+      "subunit_id": 36,
+      "atom_start_inclusive": 295668,
+      "atom_stop_exclusive": 303881
+    },
+    {
+      "subunit_id": 37,
+      "atom_start_inclusive": 303881,
+      "atom_stop_exclusive": 312094
+    },
+    {
+      "subunit_id": 38,
+      "atom_start_inclusive": 312094,
+      "atom_stop_exclusive": 320307
+    },
+    {
+      "subunit_id": 39,
+      "atom_start_inclusive": 320307,
+      "atom_stop_exclusive": 328520
+    },
+    {
+      "subunit_id": 40,
+      "atom_start_inclusive": 328520,
+      "atom_stop_exclusive": 336733
+    },
+    {
+      "subunit_id": 41,
+      "atom_start_inclusive": 336733,
+      "atom_stop_exclusive": 344946
+    },
+    {
+      "subunit_id": 42,
+      "atom_start_inclusive": 344946,
+      "atom_stop_exclusive": 353159
+    },
+    {
+      "subunit_id": 43,
+      "atom_start_inclusive": 353159,
+      "atom_stop_exclusive": 361372
+    },
+    {
+      "subunit_id": 44,
+      "atom_start_inclusive": 361372,
+      "atom_stop_exclusive": 369585
+    },
+    {
+      "subunit_id": 45,
+      "atom_start_inclusive": 369585,
+      "atom_stop_exclusive": 377798
+    },
+    {
+      "subunit_id": 46,
+      "atom_start_inclusive": 377798,
+      "atom_stop_exclusive": 386011
+    },
+    {
+      "subunit_id": 47,
+      "atom_start_inclusive": 386011,
+      "atom_stop_exclusive": 394224
+    },
+    {
+      "subunit_id": 48,
+      "atom_start_inclusive": 394224,
+      "atom_stop_exclusive": 402437
+    },
+    {
+      "subunit_id": 49,
+      "atom_start_inclusive": 402437,
+      "atom_stop_exclusive": 410650
+    },
+    {
+      "subunit_id": 50,
+      "atom_start_inclusive": 410650,
+      "atom_stop_exclusive": 418863
+    },
+    {
+      "subunit_id": 51,
+      "atom_start_inclusive": 418863,
+      "atom_stop_exclusive": 427076
+    },
+    {
+      "subunit_id": 52,
+      "atom_start_inclusive": 427076,
+      "atom_stop_exclusive": 435289
+    },
+    {
+      "subunit_id": 53,
+      "atom_start_inclusive": 435289,
+      "atom_stop_exclusive": 443502
+    },
+    {
+      "subunit_id": 54,
+      "atom_start_inclusive": 443502,
+      "atom_stop_exclusive": 451715
+    },
+    {
+      "subunit_id": 55,
+      "atom_start_inclusive": 451715,
+      "atom_stop_exclusive": 459928
+    },
+    {
+      "subunit_id": 56,
+      "atom_start_inclusive": 459928,
+      "atom_stop_exclusive": 468141
+    },
+    {
+      "subunit_id": 57,
+      "atom_start_inclusive": 468141,
+      "atom_stop_exclusive": 476354
+    },
+    {
+      "subunit_id": 58,
+      "atom_start_inclusive": 476354,
+      "atom_stop_exclusive": 484567
+    },
+    {
+      "subunit_id": 59,
+      "atom_start_inclusive": 484567,
+      "atom_stop_exclusive": 492780
+    }
+  ],
+  "contact_definition": "minimum heavy-atom distance strictly <6 angstrom",
+  "contact_cutoff_angstrom": 6.0,
+  "cutoff_comparison": "<",
+  "heavy_atom_selection": "protein and not name H*",
+  "sequence_exclusion": 3,
+  "sequence_exclusion_basis": "residue order within the selected VP",
+  "weights": null,
+  "normalized": true,
+  "bc_endpoints": false,
+  "bc_method": "exact",
+  "closeness_wf_improved": true,
   "random_seed": null,
-  "random_seed_reason": "exact centralities; no sampling",
-  "structure_type": "backbone-only snapshot",
-  "source_reference": "Existing validated MD frame; no trajectory recomputation for publication",
-  "pdb_chain_to_vp": {
-    "A": 0
+  "graph_distances": "GRO loaded by MDAnalysis; float32 angstrom coordinates promoted to float64",
+  "full_capsid_centralities_computed": false,
+  "method_decision": "2026-10-16: user selected the lysozyme minimum-heavy-atom <6 A definition for this tutorial only; supersedes tutorial CA 8 A graph. Main MD analysis unchanged.",
+  "code_base_commit": "f3f6a57e94fafdc7a59f79de043c1a8a4e4159d6",
+  "created_utc": "2026-10-16T19:23:24.920405+00:00",
+  "execution": "Open Protein_Network_Analysis_AAV8.ipynb; run setup, then AAV8 cells in order.",
+  "files": {
+    "aav8_vp0_frame334.gro": {
+      "bytes": 443601,
+      "sha256": "bec1a935ada5f4260080c3020ef5c0fdb3e84ff92e195da08deb27a8e20b9789"
+    },
+    "aav8_capsid_frame334.gro": {
+      "bytes": 26610230,
+      "sha256": "501a0277c489ddf145aa4589cdfc0fe7db6e62bdcb8a1da622dbda104fba63c0"
+    }
   },
-  "cif_chain_pattern": "VP{subunit_id}",
-  "created_utc": "2026-10-16T19:05:00.515442+00:00",
-  "full_capsid_centralities_computed": false
+  "default_vp0_graph": {
+    "nodes": 535,
+    "edges": 1795,
+    "edge_shape": [
+      1795,
+      2
+    ],
+    "components": 42,
+    "isolated_nodes": 40,
+    "ca_coordinate_shape": [
+      535,
+      3
+    ],
+    "heavy_coordinate_shape": [
+      4233,
+      3
+    ]
+  },
+  "validated_environment": {
+    "numpy": "2.4.4",
+    "MDAnalysis": "2.10.0",
+    "networkx": "3.6.1"
+  },
+  "coordinate_roundtrip_max_error_angstrom": 1.52587890625e-05
 }

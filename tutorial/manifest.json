@@ -48,68 +48,56 @@
   },
   "files": {
     "Protein_Network_Analysis_AAV8.ipynb": {
-      "sha256": "869bb95d13208ce4d18d30563c23c65c66bfc6ad87312cae540ef8276f498019",
-      "bytes": 32021
+      "bytes": 34541,
+      "sha256": "46c76b58812f89c2e9fdc7936805353c32d528915f5fc286a006bf233e8d92b5"
     },
     "README.md": {
-      "sha256": "c664524c02b96ac28bd408a39c155b9c7c1061eb812efeee04a31b66e337f785",
-      "bytes": 2497
+      "bytes": 2223,
+      "sha256": "e031015b5a5eff7210284f4ced4f454b24d21111e5c1c7a6e154cb5956398dc8"
     },
     "SOURCES.md": {
-      "sha256": "d1f300e8766a0261fa34e288933764b0e15950937ce8a064020e093566e9e48c",
-      "bytes": 1750
+      "bytes": 2504,
+      "sha256": "a969ee742b840256ade13bccae8064458829d316f34c1c30ff646b523b97a098"
     },
-    "aav8/aav8_frame_334_backbone.npz": {
-      "sha256": "42a29f94568a25205e01b1d7057f33c213cd9d900e7c0e38c0ad5ba2b979a162",
-      "bytes": 1596354
+    "aav8/aav8_capsid_frame334.gro": {
+      "bytes": 26610230,
+      "sha256": "501a0277c489ddf145aa4589cdfc0fe7db6e62bdcb8a1da622dbda104fba63c0"
     },
-    "aav8/aav8_vp0_centrality.csv": {
-      "sha256": "f294312562a02ae34150c1fd380e1a404f5822978abc5630cd00973492b552fc",
-      "bytes": 35629
-    },
-    "aav8/aav8_vp0_edges.csv": {
-      "sha256": "c8714eadf0d97794b1dde5c0d2636794d31af95d5da0c3dc58a2a3de7354ecbb",
-      "bytes": 34475
-    },
-    "aav8/capsid_frame334_backbone.cif.gz": {
-      "sha256": "675a99161e56ef14910e7afe1d5c1d225631640e112839c831ab9b49bd07ce1c",
-      "bytes": 3226545
+    "aav8/aav8_vp0_frame334.gro": {
+      "bytes": 443601,
+      "sha256": "bec1a935ada5f4260080c3020ef5c0fdb3e84ff92e195da08deb27a8e20b9789"
     },
     "aav8/metadata.json": {
-      "sha256": "8c2a0d41f457dc537ec691d439f71470ca0709100a8a2ddfeb90b73b6fdab5fa",
-      "bytes": 2128
-    },
-    "aav8/vp0_frame334_backbone.pdb": {
-      "sha256": "5385d3c1099147dd3287309c80d4cc35ba9623496934883bcaca24619ee33589",
-      "bytes": 169272
+      "bytes": 10347,
+      "sha256": "bdfd81b64439c35f1f56ea77e9260da5e3972e01b596dd781957b32b3148667b"
     },
     "conf/apoferritin-unfolding.xtc": {
-      "sha256": "95c076cae6e226cff0f61accc07d6ecf4753d2263781d068a0a48c4ce0008c2d",
-      "bytes": 124716
+      "bytes": 124716,
+      "sha256": "95c076cae6e226cff0f61accc07d6ecf4753d2263781d068a0a48c4ce0008c2d"
     },
     "conf/apoferritin.gro": {
-      "sha256": "e7230acdd4a9f17816bfae3b3ae78ca5c16b02ef8fdc407439f9002c39f5b82e",
-      "bytes": 122360
+      "bytes": 122360,
+      "sha256": "e7230acdd4a9f17816bfae3b3ae78ca5c16b02ef8fdc407439f9002c39f5b82e"
     },
     "conf/lysozyme-unfolding.xtc": {
-      "sha256": "4d75d568a42f6c39130c7c5082f0263266384c8d3c9b6c683fe1ab272a2171cb",
-      "bytes": 90064
+      "bytes": 90064,
+      "sha256": "4d75d568a42f6c39130c7c5082f0263266384c8d3c9b6c683fe1ab272a2171cb"
     },
     "conf/lysozyme.gro": {
-      "sha256": "069888582c0884374cbb8192d39b057c875a8d543aad09c617e1733099148bb4",
-      "bytes": 88286
+      "bytes": 88286,
+      "sha256": "069888582c0884374cbb8192d39b057c875a8d543aad09c617e1733099148bb4"
     },
     "conf/thaumatin-unfolding.xtc": {
-      "sha256": "ebc2869dce739aa45416605c3d2ff7574b37fa9bb934e0cec37975eb3f715cd5",
-      "bytes": 138716
+      "bytes": 138716,
+      "sha256": "ebc2869dce739aa45416605c3d2ff7574b37fa9bb934e0cec37975eb3f715cd5"
     },
     "conf/thaumatin.gro": {
-      "sha256": "349271c2ea20abff764fd673c63563a9648ca8b93e17d534a0a1b7c16b6b4498",
-      "bytes": 136255
+      "bytes": 136255,
+      "sha256": "349271c2ea20abff764fd673c63563a9648ca8b93e17d534a0a1b7c16b6b4498"
     },
     "upstream/README.md": {
-      "sha256": "a90308597cc342270041f78db870774395e1b4525c89baa757247e73cdb3ea8f",
-      "bytes": 15
+      "bytes": 15,
+      "sha256": "a90308597cc342270041f78db870774395e1b4525c89baa757247e73cdb3ea8f"
     }
   }
 }
