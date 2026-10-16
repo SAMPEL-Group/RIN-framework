@@ -4,10 +4,10 @@ Download [Protein_Network_Analysis_AAV8.ipynb](tutorial/Protein_Network_Analysis
 using GitHub's **Download raw file** button, then open it in Jupyter.
 Only the notebook needs to be downloaded manually. Run the setup cell, then the
 lysozyme example or the AAV8 section. Input data are fetched automatically and
-cached in `.rin_tutorial_data/`; verified local files are reused.
+cached in `.rin_tutorial_data/`; existing local files are reused.
 
 The data repository is public, so no login, token or Git installation is needed.
-Data are pinned to a specific commit and checked with SHA256 before use.
+Data are downloaded from a fixed version of the repository.
 
 Use an environment with NumPy, SciPy, NetworkX, MDAnalysis, Matplotlib, Plotly,
 ipywidgets and py3Dmol. The notebook does not install packages. Interactive 3D
