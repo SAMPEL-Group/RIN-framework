@@ -15,7 +15,8 @@ views also need internet access for 3Dmol.js and Plotly.js.
 
 The tutorial includes [Jonathan Zajac's examples](https://github.com/Jonathan-Zajac/Tutorial-RIN)
 and an AAV8 MD snapshot: single-VP structure, centrality-colored RIN views,
-and the complete capsid. File provenance is recorded in
+and the complete capsid. The final cells compute its full residue network and
+draw only nodes and edges, without centralities. File provenance is recorded in
 [tutorial/manifest.json](tutorial/manifest.json).
 
 This repository upload contains the tutorial and its data. The full MD workflow
