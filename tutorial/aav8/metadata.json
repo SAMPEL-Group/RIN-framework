@@ -1,0 +1,80 @@
+{
+  "branch": "full_vp3",
+  "source_frames": 801,
+  "sampled_frames": [
+    334
+  ],
+  "frame_index": 334,
+  "time_ns": 400.8,
+  "dt_ns": 1.2,
+  "source_atoms": 499164,
+  "capsid_atoms": 492780,
+  "displayed_backbone_atoms": 128400,
+  "full_capsid_subunits": 60,
+  "full_capsid_ca": 32100,
+  "single_vp_atoms": 8213,
+  "single_vp_backbone_atoms": 2140,
+  "single_vp_ca": 535,
+  "xyz_shape": [
+    535,
+    3
+  ],
+  "edge_shape": [
+    1109,
+    2
+  ],
+  "edges": 1109,
+  "components": 76,
+  "isolated_nodes": 72,
+  "residue_range": [
+    204,
+    738
+  ],
+  "node_identity": [
+    "subunit_id",
+    "residue_id"
+  ],
+  "contact_cutoff_angstrom": 8.0,
+  "sequence_exclusion": 3,
+  "weights": null,
+  "normalized": true,
+  "bc_endpoints": false,
+  "bc_method": "exact",
+  "closeness_wf_improved": true,
+  "coordinate_units": "angstrom",
+  "representation": "physical_copy_aware",
+  "subunit_id": 0,
+  "source_fingerprints": {
+    "topology": {
+      "algorithm": "sha256",
+      "digest": "67abd42dc6b43319ceee46f18a661b8f5704a532509671d6bddc96f85c1aee22",
+      "mtime_ns": 1785774668000000000,
+      "path": "3ra2-vp3-renumbered-ions-nowater.gro",
+      "size_bytes": 22462482
+    },
+    "trajectory": {
+      "algorithm": "sha256",
+      "digest": "d99d494560270934a0591f877b817eb5946caf02408cadcbbdd9cb184a76095c",
+      "mtime_ns": 1785870164716623916,
+      "path": "nowater_0_960ns_unwrapped_fitToFirstFrame-002.dcd",
+      "size_bytes": 4798028724
+    }
+  },
+  "backbone_coordinate_sha256": "f7ca81a32b013cbee3c159e4e2056bd99e1fbd5ee1704a40d3e01ce3c319af54",
+  "source_time_range_ns": [
+    0.0,
+    960.0
+  ],
+  "output_frame_count": 1,
+  "graph_distances": "unrounded DCD float32 coordinates promoted to float64",
+  "random_seed": null,
+  "random_seed_reason": "exact centralities; no sampling",
+  "structure_type": "backbone-only snapshot",
+  "source_reference": "Existing validated MD frame; no trajectory recomputation for publication",
+  "pdb_chain_to_vp": {
+    "A": 0
+  },
+  "cif_chain_pattern": "VP{subunit_id}",
+  "created_utc": "2026-10-16T19:05:00.515442+00:00",
+  "full_capsid_centralities_computed": false
+}
