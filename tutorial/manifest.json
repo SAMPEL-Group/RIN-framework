@@ -48,16 +48,8 @@
   },
   "files": {
     "Protein_Network_Analysis_AAV8.ipynb": {
-      "bytes": 34541,
-      "sha256": "46c76b58812f89c2e9fdc7936805353c32d528915f5fc286a006bf233e8d92b5"
-    },
-    "README.md": {
-      "bytes": 2223,
-      "sha256": "e031015b5a5eff7210284f4ced4f454b24d21111e5c1c7a6e154cb5956398dc8"
-    },
-    "SOURCES.md": {
-      "bytes": 2504,
-      "sha256": "a969ee742b840256ade13bccae8064458829d316f34c1c30ff646b523b97a098"
+      "bytes": 34501,
+      "sha256": "0283816312758942168726cfe4dadb6cebfa188949293cec5945963ebc05bcb9"
     },
     "aav8/aav8_capsid_frame334.gro": {
       "bytes": 26610230,
