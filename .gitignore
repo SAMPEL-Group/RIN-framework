@@ -7,3 +7,4 @@ local/
 *.dcd
 *.trr
 *.dms
+.rin_tutorial_data/
